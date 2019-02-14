@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #efefef;
     font-family: 'Segoe UI';
+}
+
+body {
+    background-color: #efefef;
 }
 
 #table {
@@ -33,3 +36,65 @@ td:nth-child(3) {
     padding: 16px 8px;
 }
 
+#form {
+    width: 50%;
+    padding: 48px;
+    margin: 16px auto;
+    background-color: white;
+}
+
+#form img {
+    height: 178px;
+    display: block;
+    margin: auto;
+}
+
+input[type=text], select {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    margin: 8px 0 16px 0;
+    width: 100%;
+}
+
+input[type=radio] {
+    margin: 16px 8px 16px 24px;
+}
+
+input[type=radio]:checked + label {
+    font-weight: bold;
+    color: rgb(94, 133, 212);
+    border-bottom: 2px solid rgb(94, 133, 212);
+}
+
+input[type=submit] {
+    display: block;
+    border-radius: 3px;
+    border-width: 0px;
+    padding: 12px 20px;
+    margin: 8px 0 16px 0;
+    width: 100%;
+    background-color: rgb(94, 133, 212);
+    color: white;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(63, 100, 173);
+}
+
+input[type=text]:hover, select:hover {
+    background-color: #efefef;
+}
+
+.class-radio {
+    display: block;
+    margin: 8px 0 16px 0;
+}
+
+
+label[for] {
+    font-weight: 500;
+}
