@@ -4,6 +4,41 @@
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
+        <div id="form">
+            <img src="assets/img/logo.jpg" alt="logo">
+        
+            <form>
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" name="name" placeholder="nama lengkap" required>
+    
+                <label for="nis">Nomor Induk Siswa</label>
+                <input type="text" name="no-induk" placeholder="Nomor Induk" maxlength="10" required>
+                
+                <label for="no-induk">Jurusan</label>
+                <select name="jurusan">
+                    <option value="akuntansi">Akuntansi dan Keuangan Lembaga</option>
+                    <option value="perkantoran">Otomatisasi dan Tata Kelola Perkantoran</option>
+                    <option value="pemasaran">Bisnis Daring dan Pemasaran</option>
+                    <option value="rpl">Rekayasa Perangkat Lunak</option>
+                </select>
+    
+                <label for="kelas">Kelas</label>
+                <div class="class-radio">
+                    <span>
+                        <input type="radio" name="kelas" value="X"><label>Kelas 10</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="kelas" value="XI"><label>Kelas 11</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="kelas" value="XII"><label>Kelas 12</label>
+                    </span>
+                </div>
+                    
+                <input type="submit">
+            </form>
+        </div>
+
         <table id="table">
             <tr>
                 <th>No.</th>
