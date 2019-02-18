@@ -86,7 +86,7 @@ input[type=submit]:hover {
 }
 
 input[type=text]:hover, select:hover {
-    background-color: #efefef;
+    background-color: #999999;
 }
 
 .class-radio {
